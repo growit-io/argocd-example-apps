@@ -15,6 +15,9 @@ service:
   type: ClusterIP
   port: 80
 
+serviceMonitor:
+  enabled: false
+
 ingress:
   enabled: false
   annotations: {}
